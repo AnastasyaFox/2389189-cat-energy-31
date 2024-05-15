@@ -1,0 +1,1 @@
+var e=document.querySelector(".page-header__nav"),a=document.querySelector(".page-header__menu-button");a.addEventListener("click",()=>{e.classList.contains("header__nav--closed")?(e.classList.remove("header__nav--closed"),e.classList.add("header__nav--opened")):(e.classList.add("header__nav--closed"),e.classList.remove("header__nav--opened"))});
